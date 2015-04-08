@@ -1,0 +1,11 @@
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Article",
+         title = "Effective ergodicity in single-spin-flip dynamics",
+         author = c(person("Mehmet", "Suezen")),
+	 number = 90,
+         pages  = 032141,
+	 journal = "Phys. Rev. E",
+         year = 2014,
+         url = "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032141")

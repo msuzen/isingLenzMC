@@ -1,0 +1,13 @@
+Package: isingLenzMC
+Version: 0.2.4
+Date: 2015-04-08
+Title: Monte Carlo for Classical Ising Model
+Authors@R: c(
+    person("Mehmet", "Suzen",
+    email = "mehmet.suzen@physics.org", role = c("aut", "cre")))
+Maintainer: Mehmet Suzen <mehmet.suzen@physics.org>
+Depends: R (>= 3.0)
+NeedsCompilation: yes
+BuildVignettes: yes
+Description: Classical Ising Model is a land mark system in statistical physics. Model explains physics of spin glasses and magnetic materials, but used in many different context for example phase transitions and neural systems. This package provides utilities to simulate one dimensional Ising Model with Metropolis and Glauber Monte Carlo with single flip dynamics in periodic boundary conditions.
+License: GPL (>= 3)

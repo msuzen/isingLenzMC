@@ -1,0 +1,25 @@
+# Share Object
+useDynLib(isingLenzMC)
+
+# .C wrapper functions
+export(genConfig1D)
+export(flipConfig1D)
+export(flipConfig1Dmany)
+export(lattice1DenergyNN)
+export(sumVec)
+export(totalEnergy1D)
+export(transitionProbability1D)
+export(isStep1D)
+export(isPerform1D)
+
+# Pure R functions
+export(genConfig1D_R)
+export(flipConfig1D_R)
+export(lattice1DenergyNN_R)
+export(sumVec_R)
+export(totalEnergy1D_R)
+export(transitionProbability1D_R)
+
+# Utility Functions
+export(genUniform)
+export(transferMatrix)
