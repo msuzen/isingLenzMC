@@ -9,5 +9,5 @@ Maintainer: Mehmet Suzen <mehmet.suzen@physics.org>
 Depends: R (>= 3.0)
 NeedsCompilation: yes
 BuildVignettes: yes
-Description: Classical Ising Model is a land mark system in statistical physics. Model explains physics of spin glasses and magnetic materials, but used in many different context for example phase transitions and neural systems. This package provides utilities to simulate one dimensional Ising Model with Metropolis and Glauber Monte Carlo with single flip dynamics in periodic boundary conditions.
+Description: Classical Ising Model is a land mark system in statistical physics.The model explains the physics of spin glasses and magnetic materials, and cooperative phenomenon in general, for example phase transitions and neural networks.This package provides utilities to simulate one dimensional Ising Model with Metropolis and Glauber Monte Carlo with single flip dynamics in periodic boundary conditions. Utility functions for exact solutions are provided.
 License: GPL (>= 3)
