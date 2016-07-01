@@ -1,3 +1,6 @@
+# import functions
+importFrom("stats", "runif")
+
 # Share Object
 useDynLib(isingLenzMC)
 
