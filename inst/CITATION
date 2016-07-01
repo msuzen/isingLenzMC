@@ -9,3 +9,9 @@ bibentry(bibtype = "Article",
 	 journal = "Phys. Rev. E",
          year = 2014,
          url = "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032141")
+
+bibentry(bibtype = "Manuscript",
+         title = "Anomalous diffusion in convergence to effective ergodicity",
+         author = c(person("Mehmet", "Suezen")),
+         year = 2016,
+         url = "https://arxiv.org/abs/1606.08693")

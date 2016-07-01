@@ -2,6 +2,8 @@ isinLenzMC
 
 0.2.5
 * A new example is added. 
+  under: inst/examples/powerLawErgodicity
+  To support the work, see manuscript, https://arxiv.org/abs/1606.08693
 
 0.2.4 
 * Minor update
