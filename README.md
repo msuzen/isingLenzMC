@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/msuzen/isingLenzMC.svg?branch=master)](https://travis-ci.org/msuzen/isingLenzMC)
+[![CRAN Version](http://www.r-pkg.org/badges/version/isingLenzMC)](https://cran.r-project.org/package=isingLenzMC)
+[![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/isingLenzMC?color=brightgreen)](https://cran.r-project.org/package=isingLenzMC)
+[![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/isingLenzMC?color=brightgreen)](https://cran.r-project.org/package=isingLenzMC)
 # isingLenzMC
 isingLenzMC: Monte Carlo for Classical Ising Model
 
