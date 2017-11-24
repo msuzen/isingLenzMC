@@ -3,6 +3,7 @@
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/isingLenzMC?color=brightgreen)](https://cran.r-project.org/package=isingLenzMC)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/isingLenzMC?color=brightgreen)](https://cran.r-project.org/package=isingLenzMC)
 # isingLenzMC
+
 isingLenzMC: Monte Carlo for Classical Ising Model
 
 [Stable release on CRAN](https://cran.rstudio.com/web/packages/isingLenzMC/index.html)
@@ -19,3 +20,7 @@ for exact solutions are provided.
  Mehmet Suezen, [Phys. Rev. E 90, 032141](http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032141)
 * Anomalous diffusion in convergence to effective ergodicity,
 Suezen, Mehmet, [arXiv:1606.08693](http://arxiv.org/abs/1606.08693)
+
+* Dataset 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1065942.svg)](https://doi.org/10.5281/zenodo.1065942)
+
