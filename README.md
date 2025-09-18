@@ -6,7 +6,7 @@
 
 isingLenzMC: Monte Carlo for Classical Ising Model
 
-[Stable release on CRAN]https://CRAN.R-project.org/package=isingLenzMC)
+[Stable release on CRAN](https://CRAN.R-project.org/package=isingLenzMC)
 
 # Description
 Classical Ising Model is a land mark system in statistical physics. The model explains 
