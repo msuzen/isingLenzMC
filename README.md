@@ -6,7 +6,7 @@
 
 isingLenzMC: Monte Carlo for Classical Ising Model
 
-[Stable release on CRAN](https://cran.rstudio.com/web/packages/isingLenzMC/index.html)
+[Stable release on CRAN]https://CRAN.R-project.org/package=isingLenzMC)
 
 # Description
 Classical Ising Model is a land mark system in statistical physics. The model explains 
@@ -17,9 +17,9 @@ Carlo with single flip dynamics in periodic boundary conditions. Utility functio
 for exact solutions are provided.
 # Related Publications/manuscripts
 * Effective ergodicity in single-spin-flip dynamics
- Mehmet Suezen, [Phys. Rev. E 90, 032141](http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032141)
+ Mehmet Suezen, [Phys. Rev. E 90, 032141](https://doi.org/10.1103/PhysRevE.90.032141)
 * Anomalous diffusion in convergence to effective ergodicity,
-Suezen, Mehmet, [arXiv:1606.08693](http://arxiv.org/abs/1606.08693)
+Suezen, Mehmet, [arXiv:1606.08693](https://arxiv.org/abs/1606.08693)
 
 * Dataset 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1065942.svg)](https://doi.org/10.5281/zenodo.1065942)

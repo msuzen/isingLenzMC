@@ -2,7 +2,7 @@
 importFrom("stats", "runif")
 
 # Share Object
-useDynLib(isingLenzMC)
+useDynLib(isingLenzMC, .registration = TRUE)
 
 # .C wrapper functions
 export(genConfig1D)

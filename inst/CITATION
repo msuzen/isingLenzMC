@@ -7,8 +7,7 @@ bibentry(bibtype = "Article",
 	 number = 90,
          pages  = 032141,
 	 journal = "Phys. Rev. E",
-         year = 2014,
-         url = "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032141")
+         year = 2014)
 
 bibentry(bibtype = "unpublished",
          title  = "Anomalous diffusion in convergence to effective ergodicity",
