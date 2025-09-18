@@ -1,5 +1,5 @@
 Package: isingLenzMC
-Version: 0.2.6
+Version: 0.2.7
 Date: 2025-09-18
 Title: Monte Carlo for Classical Ising Model
 Authors@R: c(
