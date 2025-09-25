@@ -10,7 +10,7 @@
 # isingLenzMC: Monte Carlo for Classical Ising Model
 
 * [Stable release on CRAN](https://CRAN.R-project.org/package=isingLenzMC)   
-* [Development repository][https://github.com/msuzen/isingLenzMC]  
+* [Development repository](https://github.com/msuzen/isingLenzMC)
 
 ## Description
 
