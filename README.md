@@ -27,8 +27,8 @@ functional-diffusion.
 
 These examples are scientific use cases of the package, some corresponds to papers.
 
-*  [Measuring effective ergodicity on differring temperature ranges](examples/effectiveErgodicity/README.md)
-* [Ergodic Dynamics of Ising Model : functional-diffusion regimes](examples/powerLawErgodicity).
+*  [Measuring effective ergodicity on differring temperature ranges](inst/examples/effectiveErgodicity/README.md)
+* [Ergodic Dynamics of Ising Model : functional-diffusion regimes](inst/examples/powerLawErgodicity).
 
 ## Related Publications and Datasets
 
