@@ -9,7 +9,8 @@
 
 # isingLenzMC: Monte Carlo for Classical Ising Model
 
-[Stable release on CRAN](https://CRAN.R-project.org/package=isingLenzMC)
+* [Stable release on CRAN](https://CRAN.R-project.org/package=isingLenzMC)   
+* [Development repository][https://github.com/msuzen/isingLenzMC]  
 
 ## Description
 
@@ -18,7 +19,16 @@ the physics of spin glasses and magnetic materials, and cooperative phenomenon
 in general, for example phase transitions and neural networks. This package provides 
 utilities to simulate one dimensional Ising Model with Metropolis and Glauber Monte 
 Carlo with single flip dynamics in periodic boundary conditions. Utility functions 
-for exact solutions are provided.
+for exact solutions are provided. Such as transfer matrix for 1D. Example use cases 
+are as follows: Measuring effective ergodicity and power-laws in so called 
+functional-diffusion. 
+
+## Example use cases
+
+These examples are scientific use cases of the package, some corresponds to papers.
+
+*  [Measuring effective ergodicity on differring temperature ranges](examples/effectiveErgodicity/README.md)
+* [Ergodic Dynamics of Ising Model : functional-diffusion regimes](examples/powerLawErgodicity).
 
 ## Related Publications and Datasets
 
@@ -28,5 +38,4 @@ for exact solutions are provided.
 * Anomalous diffusion in convergence to effective ergodicity,
 Suezen, Mehmet, [arXiv:1606.08693](https://arxiv.org/abs/1606.08693)  
 [Dataset](https://doi.org/10.5281/zenodo.17151290) 
- 
 

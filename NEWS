@@ -1,5 +1,18 @@
 isinLenzMC
 
+0.2.8
+* Updates in the description.
+* README.md:  More links to examples and link to repo, as package source maybe be propagated.
+* NEWS file up-to-date.
+* Travis file is removed.
+* Minor improvements on Vignette `isingLenzMC.Rnw`. 
+
+0.2.7
+* zenedo datasets for the published works.
+
+0.2.6
+* improved example for powerLawErgodicity, with notebooks and new size 1024.
+
 0.2.5
 * A new example is added. 
   under: inst/examples/powerLawErgodicity
@@ -14,5 +27,5 @@ isinLenzMC
 * GPL-3 license file added. 
 
 0.2.2
+* Vignette fixed. PRE reference. 
 
-* Vignette fixed. PRE reference.

@@ -2,7 +2,7 @@
 
 
 \title{isingLenzMC v0.2: Glauber and Metropolis single spin flip dynamics for the Ising Model \footnote{ This package supports following work, {\it Effective ergodicity in single-spin-flip dynamics}, Phys. Rev. E 90, 032141 (2014) DOI: 10.1103/PhysRevE.90.03214, Mehmet Suezen} }
-\author{Mehmet S\"uzen, Ph.D. \footnote{mehmet.suzen@physics.org}}
+\author{M. S\"uzen, \footnote{mehmet.suzen@physics.org}}
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
@@ -19,6 +19,8 @@ Ising Model. Still, numerical solutions with MC could provide insights.
 Monte Carlo with single flip dynamics in periodic boundary conditions \footnote{Higher dimensional models may be 
 introduced in future releases.}. Computationally intensive parts are written in {\it low-level language (C)} 
 for efficiency reasons.
+
+The model is identical to{\it Hopfield network} as well, as Glauber dynamics corresponds to learning dynamics.
 
 \section{Ising Model}
 
@@ -139,6 +141,4 @@ $$ \Omega_{M}(k) = \Big( (\sum_{i=1}^{k} M_{ave}^{i}) - M_{ensemble} \Big)^{2} $
 where $M_{ave}^{i}$ is the average magnetisation per site at a given accepted step $i$. It is left as an exercise to see how this 
 fluctuation mDetric changes with the system size $N$. The larger the lattice, longer simulation needed to reach to ensemble average.
 
-\section{Acknowledgements}
-Author wishes to thank Dr. Ole Peters, Dr. Richard M. Neumann and Dr. Cornelius Weber for valuable discussions and correspondence.
 \end{document}
