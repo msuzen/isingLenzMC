@@ -23,19 +23,44 @@ for exact solutions are provided. Such as transfer matrix for 1D. Example use ca
 are as follows: Measuring effective ergodicity and power-laws in so called 
 functional-diffusion. 
 
-## Example use cases
+## Scientific Output
 
-These examples are scientific use cases of the package, some corresponds to papers.
-
-*  [Measuring effective ergodicity on differring temperature ranges](inst/examples/effectiveErgodicity/README.md) 
-* [Ergodic Dynamics of Ising Model : functional-diffusion regimes](inst/examples/powerLawErgodicity)
-
-## Related Publications and Datasets
+The package is used in the following peer-reviewed works:
 
 * Effective ergodicity in single-spin-flip dynamics  
- Mehmet Suezen, [Phys. Rev. E 90, 032141](https://doi.org/10.1103/PhysRevE.90.032141)  
- [Dataset](https://doi.org/10.5281/zenodo.1065942)
+  Mehmet Suezen, [Phys. Rev. E 90, 032141](https://doi.org/10.1103/PhysRevE.90.032141)  
+  [Dataset](https://doi.org/10.5281/zenodo.1065942) (2014) 
 * Anomalous diffusion in convergence to effective ergodicity,
-Suezen, Mehmet, [arXiv:1606.08693](https://arxiv.org/abs/1606.08693)  
-[Dataset](https://doi.org/10.5281/zenodo.17151290) 
+  Suzen, Mehmet, [Physica Scripta](https://doi.org/10.1088/1402-4896/ae483e) (2026) 
+  [Dataset](https://doi.org/10.5281/zenodo.18223717)
+
+See Bibtex entries at [CITATION](inst/CITATION).
+
+We provide replicating results from the papers under examples directory. 
+
+* [Measuring effective ergodicity on differing temperature ranges](inst/examples/effectiveErgodicity/README.md) 
+* [Ergodic Dynamics of Ising Model : functional-diffusion regimes](inst/examples/powerLawErgodicity)
+  * There are quite a lot of functionality here that are not yet in the main package:
+    * `log-log` regression for time-power laws, with KS-test windowing. 
+    * Usage of distributional power-laws. 
+    * Parallel run utilities. 
+    * Finite Size Scaling (FSS) analysis.
+    * Autocorrelation function.
+    * Bias-corrected bootstrapping for error bars. 
+    * Enhance plotting utilities: Publication quality. 
+
+## Dev Scratch Notes
+
+* Building and checks 
+```bash 
+R CMD build --compact-vignettes=both isingLenzMC
+R CMD check --as-cran  isingLenzMC_<version>.tar.gz
+```
+## License
+
+This project and all contributions are licensed under :
+* All non-code  [![License: CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+* Code under [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
 

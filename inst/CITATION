@@ -1,16 +1,21 @@
 year <- sub("-.*", "", meta$Date)
 note <- sprintf("R package version %s", meta$Version)
 
-bibentry(bibtype = "Article",
-         title = "Effective ergodicity in single-spin-flip dynamics",
-         author = c(person("Mehmet", "Suezen")),
-	 number = 90,
-         pages  = 032141,
-	 journal = "Phys. Rev. E",
-         year = 2014)
+bibentry(
+    bibtype = "Article",
+    title = "Effective ergodicity in single-spin-flip dynamics",
+    author = c(person("Mehmet", "Suezen")),
+    number = 90,
+    pages = 032141,
+    journal = "Phys. Rev. E",
+    year = 2014
+)
 
-bibentry(bibtype = "unpublished",
-         title  = "Anomalous diffusion in convergence to effective ergodicity",
-         author = c(person("Mehmet", "Suezen")),
-	 note   = "pre-print",
-         url    = "https://arxiv.org/abs/1606.08693")
+bibentry(
+    bibtype = "Article",
+    title = "Anomalous diffusion in convergence to effective ergodicity",
+    author = c(person("Mehmet", "Suezen")),
+    journal = "Physica Scripta",
+    url = "https://doi.org/10.1088/1402-4896/ae483e",
+    year = 2026
+)

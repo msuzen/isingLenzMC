@@ -1,5 +1,13 @@
 isinLenzMC
 
+0.3.1
+* New paper and dataset link
+* New enhancement with the new paper (2026).  
+  Comprehensive Dataset for Anomalous Functional-Diffusion for ergodicity convergence.
+  See `examples/powerLawsErgodicity`
+ 
+
+
 0.2.8
 * Updates in the description.
 * README.md:  More links to examples and link to repo, as package source maybe be propagated.
