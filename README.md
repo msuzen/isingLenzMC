@@ -50,14 +50,14 @@ We provide replicating results from the papers under examples directory.
 
 ## Dev Scratch Notes
 
-* Building and checks
+* Building and checks for the package release before CRAN upload.
 
 ```bash
 R CMD build --compact-vignettes=both isingLenzMC
 R CMD check --as-cran  isingLenzMC_<version>.tar.gz
 ```
 
-* Generating `init.c`: This is a note and not needed in general.
+* Generating `init.c`: This is a note and not needed in general. This is due to fact that we have core C library.
 
 ```R
 tools::package_native_routine_registration_skeleton("isingLenzMC", character_only = FALSE)
